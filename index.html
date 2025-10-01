@@ -1,27 +1,43 @@
 <!DOCTYPE html>
-<html>
-<head>
-    <title>AI Bestie Demo</title>
-    <style>
-        body { background: #001F3F; color: #F5F5F5; font-family: Lato, sans-serif; text-align: center; }
-        h1 { color: #FFD700; }
-        .sparkle { animation: twinkle 2s infinite; }
-        @keyframes twinkle { 0%, 100% { opacity: 1; } 50% { opacity: 0.5; } }
-    </style>
-</head>
-<body>
-    <h1>AI Bestie: Your Celestial Guide</h1>
-    <p class="sparkle">Coming Soon: Heal with Stella’s Light! ✨</p>
-</body>
-</html>
-Refresh Celestial Theme (if not done from prior guide):
-
-Site Design > Themes > Set:
-
-Background: Deep Navy (#001F3F) for cosmic depth.
-Accents: Glittery Gold (#FFD700) for buttons/headers, Glittery Silver (#C0C0C0) for borders/icons.
-Fonts: Header: “Cinzel” (divine); Body: “Lato” (clear).
-
-
-Background: Add > Background > Choose “Video” or “Image” > Search “nebula” or “starry sky.” Add Particle Effects app (free) for silver/gold sparkles (low intensity, twinkle on hover).
-Hero Banner: Upload a starry image (free from Wix/Unsplash) with text: “Building Better Together: Ascend to Your Celestial Self” in gold. Add a silver “Donate” button.
+   <html lang="en">
+   <head>
+       <meta charset="UTF-8">
+       <meta name="viewport" content="width=device-width, initial-scale=1.0">
+       <title>Building Better Together (BBT)</title>
+       <link rel="stylesheet" href="styles.css">
+   </head>
+   <body>
+       <header>
+           <h1>Building Better Together</h1>
+           <p>Ascend to Your Celestial Self with Love & Unity</p>
+       </header>
+       <section id="about">
+           <h2>About BBT</h2>
+           <p>Founded by Sara Stamps, BBT is a nonprofit weaving pain into peace. Through self-defense, emotional intelligence, and AI Bestie—a celestial app—we empower communities to heal and ascend. Inspired by Sara’s journey from trauma to divine connection, we unite heaven and hell within to build better futures. <a href="https://www.gofundme.com/f/support-sara-stamps-in-building-better-together?attribution_id=sl:ae30b28c-04ef-495d-9eb8-2eb2d1784683&lang=en_US&ts=1758878551&utm_campaign=man_sharesheet_dash&utm_content=amp13_c-amp17_tc&utm_medium=customer&utm_source=facebook" target="_blank">Support us on GoFundMe ($100 raised!)</a></p>
+       </section>
+       <section id="ai-bestie">
+           <h2>Meet AI Bestie: Stella</h2>
+           <p>Your celestial guide, Stella, offers a taste of our Sims-like app. Chat with her below to navigate BBT or find inner peace with psychology-based prompts.</p>
+           <div id="chat-container">
+               <div id="chat-output"></div>
+               <input type="text" id="chat-input" placeholder="Talk to Stella...">
+               <button onclick="sendMessage()">Send</button>
+           </div>
+       </section>
+       <section id="join">
+           <h2>Join Our Celestial Circle</h2>
+           <p>Connect with our community of light-bearers!</p>
+           <a href="https://www.facebook.com/groups/842067005016585" target="_blank" class="btn">Facebook Community</a>
+           <a href="https://www.tiktok.com/@sarastamps90" target="_blank" class="btn">TikTok Insights</a>
+           <a href="https://github.com/[YourUsername]/BBT-Website" target="_blank" class="btn">AI Bestie on GitHub</a>
+       </section>
+       <section id="contact">
+           <h2>Contact Us</h2>
+           <p>Email: info@bbtcommunity.org | Follow our journey to ascension.</p>
+       </section>
+       <footer>
+           <p>&copy; 2025 Building Better Together. All rights reserved.</p>
+       </footer>
+       <script src="script.js"></script>
+   </body>
+   </html>
